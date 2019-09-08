@@ -1,0 +1,62 @@
+{% extends "mainPage/harvesting.html" %}
+{% block content %}
+{% include "mainPage/head.html"%}
+<div class="regist_block">
+  <div class="row">
+    {% for produc in prod %}
+    <div class="col-lg-3">
+        <div class="tab">
+          <div class>
+            <img src="{{ produc.image.url }}" class="myImage">
+          </div>
+
+          <div>
+              <p> {{ produc.name_book}} </p>
+          </div>
+
+          <div class="td" >
+              <p>Автор: {{ produc.author}} </p>
+          </div>
+
+          <div>
+              <p>Издательство: {{ produc.publishing }} </p>
+          </div>
+
+          <div class="td">
+              <p>Серия книг: {{ produc.book_series }} </p>
+          </div>
+
+          <div>
+              <p>Год издания: {{ produc.year }} </p>
+          </div>
+
+          <div class="td">
+              <p>Автор перевода: {{ produc.translator }} </p>
+          </div>
+
+          <div>
+              <p>Количество страниц: {{ produc.count }} </p>
+          </div>
+          
+          <div class="td">
+              <p>Переплет: {{ produc.binding }} </p>
+          </div>
+          
+          <div>
+              <p>Бумага: {{ produc.paper }} </p>
+          </div>
+
+          <div class="td">
+              <p>Литература: {{ produc.literature }} </p>
+          </div>
+
+          <div>
+              <p>Описание: {{ produc.description }} </p>
+          </div>
+        </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

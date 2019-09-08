@@ -1,0 +1,17 @@
+{% extends "mainPage/harvesting.html" %}
+{% block content %}
+{% include "mainPage/head.html"%}
+<body class="regist_block">
+<div>
+    <p class="registr_tetx">Заполните пожалуйста форму для того что бы мы могли присылать самые свежие новости и обновления магазина</p>
+    <form action=""   method="post">{% csrf_token %}
+        {{form.as_p}}
+        <div>
+            <button class="button" type="submit">Отправить</button>
+        </div>
+        
+    </form>
+</div>
+
+</body>
+{% endblock %}

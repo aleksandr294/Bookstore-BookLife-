@@ -1,0 +1,324 @@
+body{
+    margin: 0%;
+}
+.head{
+    width: 99%; 
+    height: 15%;
+    display: block;
+    
+    margin-left: 5px;
+    background-image: url(book.jpg);
+    background-size: 100% 100%;
+    padding: 20% ;
+    -moz-box-sizing: border-box;    
+    position: relative;
+      
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+
+.col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    font-size: 30px;
+}
+.left_h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+.right_h2{
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 77%;
+}
+.registr_tetx{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    
+}
+.start{
+    margin-top: -30%;
+    margin-left: -30%;
+}
+.start_text{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: -30%;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black, 0 0 1em red; 
+    position: relative;
+}
+.right_text{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 70%;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black, 0 0 1em red; 
+    position: relative;
+    
+}
+.menu{
+    width: 98%; 
+    height: 30%;
+    position: -webkit-sticky;
+    text-align: center;
+    background: gold;
+    display: block;
+    margin-top: 0;
+    padding: 10px;
+    position: relative;
+    
+}
+.us{
+    width: 100%;
+    height: 100%;
+    background-image: url(05.jpg);
+    background-repeat: no-repeat;
+    block-size: 100%,100% ;
+    position: relative;
+    display: block;	
+    -moz-box-sizing: border-box;  
+    
+}
+.usbrd{
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px rgba(134, 102, 13, 0.979);
+    text-indent: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    width: 800px;
+}
+.butt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+    padding-right: 3%;
+    line-height: 1;
+    display: inline-block;
+    color:black;
+    text-decoration:none;
+    cursor: pointer;
+}
+.butt:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    transition: width .3s ease-in-out;
+}
+.Detect_tetx{
+    font-family: 'Segoe Print';
+    font-size: 14.5px;
+}
+.Dark_h2{
+    font-family: 'Hortensia';
+    font-size: 30px;
+}
+.Det_h2{
+    font-family: 'Segoe Print';
+    font-size: 30px;
+}
+.DarkF_Block{
+    width: 99%; 
+    height: 15%;
+    margin-left: 5px;
+    display: block;
+    position: absolute;
+    background-image: url(DarkF.jpg);
+    background-size: 100% 100%;
+    padding: 20% ;
+    -moz-box-sizing: border-box;  
+    position: relative;
+}
+.Detect_Block{
+    width: 99%; 
+    height: 15%;
+    margin-left: 5px;
+    display: block;
+    position: absolute;
+    background-image: url(Detect.jpg);
+    background-size: 100% 100%;
+    padding: 20% ;
+    -moz-box-sizing: border-box;  
+    position: relative;
+    box-shadow: inset 0 0 20px black;
+
+}
+.endBlock{
+    width: 99%; 
+    height: 50px;
+    margin-left: 5px;
+    display: block;
+    position: relative;
+    background:black;
+    background-size: 100% 100%;
+    padding:10% ;
+    -moz-box-sizing: border-box;  
+
+}
+.books{
+    width: 99%; 
+    height: 5%;
+    display:block;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.button{
+    position: relative;
+    background: gold;
+    font-family: 'Courier New', Courier, monospace;
+    border: double 4px black;
+    border-radius: 10px;
+    width: 15%;
+    height: 10%;
+    padding: 1%;
+}
+.button:hover{
+    background: rgba(163, 139, 4, 0.842);
+}
+.But:hover{
+    background: rgba(163, 139, 4, 0.842);
+}
+.brd{
+    outline: 6px groove #000;
+    /* Белая рамка */
+    border-radius: 5px;
+}
+.text_prod{
+    font-size: 12px;
+}
+.tab{
+    border-radius: 5px;
+    border: 2px solid black; /* Рамка вокруг ячеек */
+    margin-top: 10px;
+    margin-left: 20px;
+}
+img.myImage {
+    width: 200px; 
+    height: 250px;
+   
+}
+button.But{
+    width: 200px; 
+    height: 35px;
+    position: relative;
+    background: gold;
+    font-family: 'Courier New', Courier, monospace;
+    border: double 4px black;
+    border-radius: 10px;
+}
+.td{
+    text-decoration: underline;
+    background: gold;
+   }
+.skrgl{
+    border-radius: 5px;
+}
+.text_DarkF{
+    font-family: 'Hortensia';
+    font-size: 18px;
+}
+.regist_block{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.5%;
+    text-align: center;
+    background: rgb(231, 222, 139);
+}
+
+.button_block{
+    top: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.dark{
+    width: 99%; 
+    height: 15%;
+    margin-left: 5px;
+   
+    display: block;
+    position: absolute;
+    background-image: url(DarkF.jpg);
+    background-size: 100% 100%;
+    padding: 20% ;
+    -moz-box-sizing: border-box;  
+    position: relative;
+}
+
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+   }
+   
+   .slide {
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    width: 99%;
+    height: 99%;
+    opacity: 0;
+    z-index: 0;
+   
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+   }
+   
+   .showing {
+    opacity: 1;
+    z-index: 2;
+   }
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+   }
+   
+   .slide:nth-of-type(1) {
+    background-image: url(DarkF.jpg);
+    outline: 6px groove #000;
+    border-radius: 5px;
+   }
+   .slide:nth-of-type(2) {
+    background-image: url(Detect.jpg);
+    outline: 6px groove #000;
+    border-radius: 5px;
+   }
+  
+
+
+
+
+.butt:hover:after,
+.butt:focus:after {
+width: 100%;
+
+}
